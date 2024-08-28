@@ -8,15 +8,26 @@ const hours = ["00:00", "01:00", "02:00", "03:00", "04:00", "05:00", "06:00", "0
 const rows = [
   {
     name: "יוחנן דו",
-    events: [<div>משימה 1</div>, <div>משימה 2</div>, <div>משימה 3</div>] // Tasks in Hebrew
+    events: [
+      { name: "משימה 1", startTime: "08:00", endTime: "10:00" },
+      { name: "משימה 2", startTime: "11:00", endTime: "12:30" },
+      { name: "משימה 3", startTime: "13:00", endTime: "15:00" }
+    ]
   },
   {
     name: "יעל שמואל",
-    events: [<div>משימה א</div>, <div>משימה ב</div>, <div>משימה ג</div>] // Tasks in Hebrew
+    events: [
+      { name: "משימה א", startTime: "09:00", endTime: "11:00" },
+      { name: "משימה ב", startTime: "12:00", endTime: "13:30" },
+      { name: "משימה ג", startTime: "14:00", endTime: "15:00" }
+    ]
   },
   {
     name: "מיכאל יונסון",
-    events: [<div>משימה X</div>, <div>משימה Y</div>] // Tasks in Hebrew
+    events: [
+      { name: "משימה X", startTime: "08:30", endTime: "09:30" },
+      { name: "משימה Y", startTime: "10:00", endTime: "11:00" }
+    ]
   },
 ];
 

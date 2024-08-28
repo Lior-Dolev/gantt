@@ -14,14 +14,18 @@
 }
 
 .gantt-row-events {
+  position: relative;
   flex: 1;
   display: flex;
+  height: 40px; /* Set a fixed height for the row */
+  direction: rtl; /* Ensure the content flows from right to left */
 }
 
 .gantt-event {
-  flex: 1;
-  border-left: 1px solid #ccc;
-  padding: 8px;
+  position: absolute;
+  height: 100%;
   background-color: #e0e0e0;
   text-align: center;
+  border-left: 1px solid #ccc;
+  box-sizing: border-box;
 }

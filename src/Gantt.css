@@ -1,28 +1,16 @@
 /* Gantt.css */
 .gantt-container {
-    display: flex;
-    flex-direction: column;
-    direction: rtl; /* Set the direction to RTL */
-  }
-  
-  .gantt-hours {
-    display: flex;
-  }
-  
-  .gantt-hour {
-    flex: 1;
-    text-align: center;
-    border-left: 1px solid #ccc;
-    padding: 8px 0;
-    background-color: #f4f4f4;
-  }
-  
-  .gantt-rows {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .gantt-row {
-    display: flex;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  direction: rtl; /* Ensure RTL layout for Hebrew */
+}
+
+.gantt-rows {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.gantt-hour {
+  text-align: center;
+}
