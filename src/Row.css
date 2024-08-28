@@ -1,0 +1,27 @@
+/* Row.css */
+.gantt-row {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+
+.gantt-row-title {
+  width: 150px; /* Adjust width as necessary */
+  padding: 8px;
+  background-color: #dcdcdc;
+  text-align: right; /* Align text to the right for RTL */
+  border-left: 1px solid #ccc;
+  font-weight: bold;
+}
+
+.gantt-row-events {
+  flex: 1;
+  display: flex;
+}
+
+.gantt-event {
+  flex: 1;
+  border-left: 1px solid #ccc;
+  padding: 8px;
+  background-color: #e0e0e0;
+  text-align: center;
+}
