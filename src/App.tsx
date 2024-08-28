@@ -10,8 +10,9 @@ const rows = [
     name: "יוחנן דו",
     events: [
       { name: "משימה 1", startTime: "08:00", endTime: "10:00" },
-      { name: "משימה 2", startTime: "11:00", endTime: "12:30" },
-      { name: "משימה 3", startTime: "13:00", endTime: "15:00" }
+      { name: "משימה 2", startTime: "09:00", endTime: "11:00" }, // Overlaps with Task 1
+      { name: "משימה 3", startTime: "11:00", endTime: "12:00" },
+      { name: "משימה 4", startTime: "09:30", endTime: "10:30" }, // Overlaps with Task 1 and Task 2
     ]
   },
   {
